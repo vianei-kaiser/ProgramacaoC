@@ -7,7 +7,7 @@ int main () {
     float altura =1.75;
     double peso=90.3;
     char letra = 'A';
-    char nome[20] = "vianei";
+    char nome[20] = "vianei"; // [20] TAMANO MAXIMO DO NOME
 
     idade=30;
 
@@ -23,7 +23,7 @@ int main () {
     printf("******* ENTRADA DE DADOS ********\n");
 
     printf("Qual o seu nome: ");
-    scanf("%s", nome);   // NÃO usa & para string
+    scanf("%s", nome);   // NÃO usa & para string ****** IMPORTANTE ***** MAS FUNCIO COM O & TAMBEM
 
     printf("Qual a sua idade: ");
     scanf("%d", &idade); // usa & para int
@@ -33,6 +33,9 @@ int main () {
 
     printf("Qual o seu peso: ");
     scanf("%lf", &peso); // usa & para double
+
+    printf("Qual a letra: ");
+    scanf(" %c", &letra); // usa & para char, e ESPACO antes de %c para consumir o enter do teclado
 
     printf("\n******* DADOS INFORMADOS ********\n");
 
@@ -44,6 +47,7 @@ int main () {
     printf("PESO       = %.1f\n", peso);
     printf("LETRA      = %c  \n", letra);
     printf("NOME       = %s  \n", nome);
+
     printf("#################################\n\n\n", nome);
 
 
