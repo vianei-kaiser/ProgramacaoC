@@ -11,11 +11,11 @@ int main () {
 
     idade=30;
 
-    printf("IDADE      = %d\n", idade);
-    printf("QUANTIDADE = %d\n", quantidade);
+    printf("IDADE      = %d  \n", idade);
+    printf("QUANTIDADE = %d  \n", quantidade);
     printf("ALTURA     = %.2f\n", altura);
     printf("PESO       = %.1f\n", peso);
-    printf("LETRA      = %c\n", letra);
-    printf("NOME       = %s\n", nome);
+    printf("LETRA      = %c  \n", letra);
+    printf("NOME       = %s  \n", nome);
 
 }
